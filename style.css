@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Righteous&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background-color: #F1DBDE;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalho-imagem {
+    height: 80px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 48px;
+}
+
+.cabecalho-menu-bv {
+    font-family: 'Montserrat', sans-serif;
+    color: #C0503C;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.cabecalho-menu-sedelicie {
+    font-family: 'Montserrat', sans-serif;
+    color: #C0503C;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.conteudo {
+    margin: 48px;
+    border-top: 1px solid #C0503C;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.conteudo-principal-escrito-arroz {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 44px;
+    color: #0E4454;
+}
+
+.conteudo-principal-escrito-descr {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #0E4454;
+}
+
+.conteudo-principal-escrito-botao {
+    background-color: #C0503C;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.conteudo-principal-escrito-botao:hover {
+    background-color: #0E4454;
+}
+
+.conteudo-principal-imagem {
+    margin-top: 48px;
+    height: 300px;
+    border-radius: 270px;
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+    margin-top: 100px;
+    margin-bottom: 48px;
+    margin-left: 48px;
+}
+
+.conteudo-secundario-titulo {
+    border-top: 1px solid #C0503C;
+    padding-top: 48px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 32px;
+    color: #0E4454;
+    margin-bottom: 16px;
+}
+
+.conteudo-secundario-paragrafo {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #0E4454;
+}
+
+.rodape {
+    padding: 32px;
+    border-top: 1px solid #C0503C;
+}
+
+.rodape-imagem {
+    height: 32px;
+    display: block;
+    margin: 0 auto;
+}
+
+a:hover {
+    color: #0E4454;
+}
